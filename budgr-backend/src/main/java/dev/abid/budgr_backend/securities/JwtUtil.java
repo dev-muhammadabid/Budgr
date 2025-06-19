@@ -14,7 +14,7 @@ import java.util.Date;
 @Service
 public class JwtUtil {
     // In real applications, store key securely
-    private final String SECRET_KEY = "MyVerySecretJWTKey1234567890";
+    private final String SECRET_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30";
     private final SecretKey key = Keys.hmacShaKeyFor(SECRET_KEY.getBytes());
 
     /**
