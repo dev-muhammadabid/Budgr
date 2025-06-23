@@ -1,0 +1,16 @@
+/* frontend/src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Toastify overrides */
+.Toastify__toast--success {
+  background: #22c55e;
+}
+.Toastify__toast--error {
+  background: #ef4444;
+}
